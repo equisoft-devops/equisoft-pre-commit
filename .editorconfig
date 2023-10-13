@@ -1,0 +1,6 @@
+; Inherited from ~/kronos/.editorconfig
+
+; Terraform
+[{*.tf,*.tfvars}]
+indent_size = 2
+tab_width = 2
