@@ -1,0 +1,7 @@
+- id: tfsort
+  name: tfsort
+  description: Run tfsort on all variables.tf and outputs.tf
+  entry: hooks/tfsort.sh
+  language: script
+  files: (variables|outputs)\.tf$
+  exclude: \.terraform\/.*$
