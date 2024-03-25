@@ -1,4 +1,3 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["github>equisoft-devops/renovate-config"]
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json"
 }
