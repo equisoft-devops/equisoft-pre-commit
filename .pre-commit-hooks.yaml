@@ -5,3 +5,9 @@
   language: script
   files: (variables|outputs)\.tf$
   exclude: \.terraform\/.*$
+- id: kms-check
+  name: Is KMS key valid
+  description: Check if files are encrypted with KMS with the correct key
+  entry: hooks/sops-kms-check.sh
+  language: script
+  files: secrets\.yaml$
