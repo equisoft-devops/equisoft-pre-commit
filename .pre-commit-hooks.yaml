@@ -10,4 +10,4 @@
   description: Check if files are encrypted with KMS with the correct key
   entry: hooks/sops-kms-check.sh
   language: script
-  files: secrets\.yaml$
+  files: /secrets\.yaml$
