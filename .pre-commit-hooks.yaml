@@ -12,8 +12,8 @@
   language: script
   files: /secrets\.yaml$
 - id: tf-double-newlines
-  name: Check for double newlines in Terraform files
-  description: Check for double newlines in Terraform files
+  name: Check for double newlines
+  description: Check for double newlines
   entry: hooks/tf-double-newlines.sh
   language: script
   files: .tf$|\.tfvars$|\.hcl$|\.yaml$|\.md$
