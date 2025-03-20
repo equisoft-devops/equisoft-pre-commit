@@ -11,3 +11,9 @@
   entry: hooks/sops-kms-check.sh
   language: script
   files: /secrets\.yaml$
+- id: tf-double-newlines
+  name: Check for double newlines
+  description: Check for double newlines
+  entry: hooks/tf-double-newlines.sh
+  language: script
+  files: .tf$|\.tfvars$|\.hcl$|\.yaml$|\.md$
