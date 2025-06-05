@@ -3,7 +3,7 @@
   description: Run tfsort on all variables.tf and outputs.tf
   entry: hooks/tfsort.sh
   language: script
-  files: (variables|outputs)\.tf$
+  files: (variables|outputs|versions)\.tf$
   exclude: \.terraform\/.*$
 - id: kms-check
   name: Is KMS key valid
