@@ -17,3 +17,9 @@
   entry: hooks/tf-double-newlines.sh
   language: script
   files: .tf$|\.tfvars$|\.hcl$|\.yaml$|\.md$
+- id: kustomize-check
+  name: Kustomize Check
+  entry: hooks/kustomize-check.sh
+  description: Ensure kustomize files are valid
+  language: script
+  files: \.yaml$|\.yml$
